@@ -100,7 +100,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define LOCKING_RESYNC_ENABLE
 
 /* Force boot in NKRO mode */
-//#define FORCE_NKRO
+#define FORCE_NKRO
 
 /*
  * Feature disable options
@@ -125,3 +125,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_LED_FLUSH_LIMIT 10
 
 #include "config_led.h"
+
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_NONE
